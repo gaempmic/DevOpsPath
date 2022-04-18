@@ -86,7 +86,7 @@ public class Main {
 			}
 			String defaultUser = "";
 			if (req.url().contains("localhost")) {
-				defaultUser = "Michael Gämperli";
+				defaultUser = "Michael Gämperli DevOps";
 				String jwtString = JwtUtility.createJsonWebToken(defaultUser, "de");
 				res.header("Authorization", jwtString);
 			}

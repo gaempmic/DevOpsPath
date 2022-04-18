@@ -1504,6 +1504,25 @@ export class GuiModel {
                             "width": 2,
                             "newRow": true,
                         },
+                        {
+                            "type": "button",
+                            "name": { default: "New Button" },
+                            "icon": "fa-file-alt",
+                            "color": "green",
+                            "page": "studyProgramPage",
+                            "width": 2,
+                            "newRow": true,                        
+                        },
+                        {
+                            "type": "button",
+                            "name": { default: "Module" },
+                            "icon": "fa-file-alt",
+                            "color": "green",
+                            "page": "modulePage",
+                            "width": 2,
+                            "newRow": true,                        
+                        },
+                        
                     ]
                 },
                 {
@@ -1516,7 +1535,7 @@ export class GuiModel {
                             "type": "newButton",
                             "name": "NewStudyProgram",
                             "icon": "fa-user",
-                            "color": "green",
+                            "color": "Blue",
                             "width": 2,
                             "form" : {
                                 "form" : "StudyProgramForm"
@@ -1535,6 +1554,26 @@ export class GuiModel {
                         }
                     ]
                 },
+                {
+                        "id": "modulePage",
+                        "elementList": [
+                        {
+                        "type": "backbutton",
+                        },
+                        {
+                        "type": "newButton",
+                        "name": { default: "Neues Modul" },
+                        "icon": "fa-user",
+                        "color": "green",
+                        "width": 2,
+                        "form" : {
+                        "form" : "ModuleForm"
+                        }
+                        },
+                        ]
+                },
+                
+                        
                 {
                     "id": "patientsPage",
                     "elementList": [
@@ -1628,7 +1667,7 @@ export class GuiModel {
                             "name": "EditInteractionStep",
                             "icon": "fa-step-forward",
                             "width": 2,
-                            "color": "green",
+                            "color": "Blue",
                             "form": {
                                 "form": "InteractionStepForm"
                             }
