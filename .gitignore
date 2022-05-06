@@ -3,3 +3,5 @@
 RemoteSystemsTempFiles
 .gradle
 **/generated/
+# Ignore Gradle build output directory
+build
