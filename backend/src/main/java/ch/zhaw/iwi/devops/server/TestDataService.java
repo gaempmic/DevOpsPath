@@ -98,6 +98,8 @@ public class TestDataService extends AbstractDatabaseService {
 		createTestUser("mosa@zhaw.ch", "Adrian", "Moser", administratorRole);
 		createTestUser("desa@zhaw.ch", "Alexandre", "de Spindler", administratorRole);
 		createTestUser("faer@zhaw.ch", "Andri", "Färber", administratorRole);
+		createTestUser("gaempmic@students.zhaw.ch", "Michael", "Gämperli", administratorRole);
+
 
 		// Sample Patients
 		Patient patient1 = createTestPatient("Anna", "Amacker");
