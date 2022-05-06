@@ -1487,12 +1487,31 @@ export class GuiModel {
             ],
             "pageList": [
                 {
+                    "id" : "modulePageSelfMade",
+                    "elementList" : [
+                        {
+                            "type" : "backbutton",
+                        },
+                        {
+                            "type" : "newButton",
+                            "name" : { default: "neues Modul"},
+                            "icon" : "fa-user",
+                            "color" : "green",
+                            "width" : "2",
+                            "from" : {
+                                "from" : "ModulForm"
+                            }
+                        },
+                    ]
+                },
+                {
+
                     "id": "mainMenu",
                     "name": "MainMenu",
                     "elementList": [
                         {
                             "type": "pageLabel",
-                            "value": "<h4>Willkommen bei DevOps</h4>",
+                            "value": "<h4>Willkommen bei DevOps geändert von Michael Gämperli</h4>",
                             "newRow": true
                         },
                         {
@@ -1502,6 +1521,24 @@ export class GuiModel {
                             "color": "wet-asphalt",
                             "page": "studyProgramPage",
                             "width": 2,
+                            "newRow": true,
+                        },
+                        {
+                            "type": "button",
+                            "name": { default: "Studiengang 2" },
+                            "icon": "fa-regular fa-fill-drip",
+                            "color": "orange",
+                            "page": "studyProgramPage",
+                            "width": 3,
+                            "newRow": true,
+                        },
+                        {
+                            "type": "button",
+                            "name": { default: "Studiengang 3" },
+                            "icon": "fa-solid fa-file",
+                            "color": "blue",
+                            "page": "modulePageSelfMade",
+                            "width": 4,
                             "newRow": true,
                         },
                     ]
