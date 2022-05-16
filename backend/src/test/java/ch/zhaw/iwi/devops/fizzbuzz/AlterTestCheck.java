@@ -31,7 +31,7 @@ public class AlterTestCheck {
     @Test
     public void pensioniert(){
         AlterTest ac = new AlterTest();
-        Assert.assertEquals("Pensioniert", ac.alterTest(28));
+        Assert.assertEquals("Pensioniert", ac.alterTest(78));
     }
 
     @Test
