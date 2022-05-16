@@ -6,6 +6,7 @@ plugins {
     id "org.sonarqube" version "3.0"
 }
 
+
 group = 'ch.zhaw.iwi'
 version = '0.2'
 mainClassName = 'ch.zhaw.iwi.devops.Main'
