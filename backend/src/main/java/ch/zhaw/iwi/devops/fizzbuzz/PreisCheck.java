@@ -17,6 +17,12 @@ public class PreisCheck {
         else if (zahl > 20.0){
             return "sehr teuer";
         }
+        /*
+        else if (zahl = 1000){
+            return "Luxus";
+        }
+        */
+        
         return "Geld zurück ;)";
     }
 }
