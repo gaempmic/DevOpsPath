@@ -2,6 +2,8 @@ package ch.zhaw.iwi.devops.fizzbuzz;
 import org.junit.Assert;
 import org.junit.Test;
 
+
+
 public class PreisCheckTest {
 
     @Test

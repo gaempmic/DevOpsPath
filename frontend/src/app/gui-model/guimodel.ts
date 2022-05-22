@@ -1523,15 +1523,7 @@ export class GuiModel {
                             "width": 2,
                             "newRow": true,
                         },
-                        {
-                            "type": "button",
-                            "name": { default: "Studiengang 2" },
-                            "icon": "fa-regular fa-fill-drip",
-                            "color": "orange",
-                            "page": "studyProgramPage",
-                            "width": 3,
-                            "newRow": true,
-                        },
+
                         {
                             "type": "button",
                             "name": { default: "Studiengang 3" },
