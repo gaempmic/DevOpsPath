@@ -1,0 +1,187 @@
+{
+  "id": "606dd088-0585-4633-a6ba-25191c417868",
+  "version": "2.0",
+  "name": "Test DevOps Path",
+  "url": "http://localhost:4200",
+  "tests": [{
+    "id": "2382fed4-d8fe-49ad-8402-54fd9aed6784",
+    "name": "Test Präsentation",
+    "commands": [{
+      "id": "a610fec4-2301-4fb2-8c6f-5b6d3f35d35a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "21a84217-932f-418b-bf75-7165d1c91189",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "944x1011",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "338b0edf-e249-41bd-a69b-a92c7a7992e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tile-wide",
+      "targets": [
+        ["css=.tile-wide", "css:finder"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "610b3e56-55b8-42f7-9b9f-b3468775408c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-backward",
+      "targets": [
+        ["css=.fa-backward", "css:finder"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6f0716d-1de0-443c-9baf-983776c25eb3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tile-wide-3",
+      "targets": [
+        ["css=.tile-wide-3", "css:finder"],
+        ["xpath=//div[3]/div/span/span/span/path-button-group/span/div/span/span/path-button/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb22de9a-bb81-4e47-a965-002daf3a58fa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-backward",
+      "targets": [
+        ["css=.fa-backward", "css:finder"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba0d42e8-2040-43cc-8cef-d5aa99de1ac9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tile-wide-4 > .h4",
+      "targets": [
+        ["css=.tile-wide-4 > .h4", "css:finder"],
+        ["xpath=//div[4]/div/span/span/span/path-button-group/span/div/span/span/path-button/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e069e6b8-ff0f-4274-9c6c-ea070bda5b45",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tile-button",
+      "targets": [
+        ["css=.tile-button", "css:finder"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2cf6bf4d-262b-43a2-92cf-f9f90da3f773",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tile-wide",
+      "targets": [
+        ["css=.tile-wide", "css:finder"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4bc2846d-d21f-4131-8836-54921a4a9479",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tile-green",
+      "targets": [
+        ["css=.tile-green", "css:finder"],
+        ["xpath=//path-button/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b10ddaf-a9f1-43ed-870b-a8324d44f562",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ng-dirty",
+      "targets": [
+        ["css=.ng-dirty", "css:finder"],
+        ["xpath=(//input[@type='text'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='myModal']/div/path-form/div/form/div[2]/div/span/span/path-textfield/span/div/input", "xpath:idRelative"],
+        ["xpath=//span/div/input", "xpath:position"]
+      ],
+      "value": "Test Präsentation"
+    }, {
+      "id": "f379ee81-e4d4-4772-ae99-acd40e46f5c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-10 > .ng-untouched",
+      "targets": [
+        ["css=.col-sm-10 > .ng-untouched", "css:finder"],
+        ["xpath=//textarea[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='myModal']/div/path-form/div/form/div[2]/div[2]/span/span/path-textfield/span/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "222fab6d-4b22-4921-a158-378d5024a620",
+      "comment": "",
+      "command": "type",
+      "target": "css=.col-sm-10 > .ng-untouched",
+      "targets": [
+        ["css=.col-sm-10 > .ng-untouched", "css:finder"],
+        ["xpath=//textarea[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='myModal']/div/path-form/div/form/div[2]/div[2]/span/span/path-textfield/span/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Test Präsentation"
+    }, {
+      "id": "2e9deef7-e6ab-4758-b587-f20095ae1ade",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(3)",
+      "targets": [
+        ["css=.btn:nth-child(3)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='myModal']/div/path-form/div/form/div[3]/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "02050aab-c93c-40f4-9454-4ade8444d0dd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn:nth-child(3)",
+      "targets": [
+        ["css=.btn:nth-child(3)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='myModal']/div/path-form/div/form/div[3]/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "adef4368-e4db-4b2c-a389-da0ee0df3ade",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-backward",
+      "targets": [
+        ["css=.fa-backward", "css:finder"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9952ab14-4fab-4908-ad78-9be25b169d7e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2382fed4-d8fe-49ad-8402-54fd9aed6784"]
+  }],
+  "urls": ["http://localhost:4200/"],
+  "plugins": []
+}
