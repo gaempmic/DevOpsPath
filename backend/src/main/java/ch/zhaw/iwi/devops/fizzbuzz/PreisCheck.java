@@ -25,6 +25,8 @@ public class PreisCheck {
         else if (zahl < 0){
             return "Geld zurück ;)";
         }
+
+        return "undefiniert";
         
     }
 }
