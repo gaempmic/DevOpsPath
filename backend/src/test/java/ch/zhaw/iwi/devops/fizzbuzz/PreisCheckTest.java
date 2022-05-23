@@ -37,14 +37,14 @@ public class PreisCheckTest {
         PreisCheck ac = new PreisCheck();
         Assert.assertEquals("sehr teuer", ac.CheckP(78));
     }
-/*
+
     //Geld zurück 
     @Test
     public void PreisCheck_GeldZurück(){
         PreisCheck ac = new PreisCheck();
-        Assert.assertEquals("Geld zurück ;)", ac.Check(-1));
+        Assert.assertEquals("Geld zurück", ac.CheckP(-1));
     }
-*/
+
 }
 
 
