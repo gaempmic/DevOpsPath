@@ -1,7 +1,7 @@
 package ch.zhaw.iwi.devops.fizzbuzz;
 
 public class PreisCheck {
-    public String Check(double zahl){
+    public String CheckP(double zahl){
         if  (zahl >0.0 && zahl <= 1.0){
             return "Sehr billig";
         }
@@ -14,14 +14,14 @@ public class PreisCheck {
         else if (zahl > 10.0 && zahl <= 20.0 ){
             return "teuer";
         }
-        else if (zahl > 20.0){
+        else if (zahl > 20.0 && zahl <= 1000){
             return "sehr teuer";
         }
-        /*
-        else if (zahl = 1000){
+        /
+        else if (zahl > 1000){
             return "Luxus";
         }
-        */
+        
         
         return "Geld zurück ;)";
     }
