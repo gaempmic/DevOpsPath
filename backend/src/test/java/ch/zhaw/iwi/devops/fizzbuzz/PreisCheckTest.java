@@ -1,11 +1,10 @@
 package ch.zhaw.iwi.devops.fizzbuzz;
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.Assert; //methode assertEquals(expected,actual) Der Test scheitert, wenn die beiden Werte nicht übereinstimmen.
+import org.junit.Test; //automatische verknüpfung der Test cases mit dem test lap 
 
 
 public class PreisCheckTest {
-    //assertEquals(expected,actual) Der Test scheitert, wenn die beiden Werte nicht übereinstimmen.
-
+    
     //Preis zwischen 0 und 1 CHF ist sehr billig
     @Test
     public void PreisCheck_SehrBillig(){
@@ -38,7 +37,7 @@ public class PreisCheckTest {
         Assert.assertEquals("sehr teuer", ac.CheckP(78));
     }
 
-    //Geld zurück 
+    //Geld zurück wenn Preis negativ ist 
     @Test
     public void PreisCheck_GeldZurück(){
         PreisCheck ac = new PreisCheck();

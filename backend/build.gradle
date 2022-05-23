@@ -79,7 +79,7 @@ dependencies {
 	annotationProcessor 'org.hibernate:hibernate-jpamodelgen:5.4.9.Final'
         
     // test only
-    testImplementation 'junit:junit:4.12'
+    testImplementation 'junit:junit:4.12' //wird für die JUnit tests verwendet 
     testImplementation 'org.apache.httpcomponents:httpclient:4.5.2'
 }
 
