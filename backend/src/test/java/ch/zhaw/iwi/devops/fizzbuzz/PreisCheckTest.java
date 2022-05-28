@@ -1,5 +1,5 @@
 package ch.zhaw.iwi.devops.fizzbuzz;
-import org.junit.Assert; //methode assertEquals(expected,actual) Der Test scheitert, wenn die beiden Werte nicht übereinstimmen.
+import org.junit.Assert; // assertEquals(expected,actual) Der Test scheitert, wenn die beiden Werte nicht übereinstimmen.
 import org.junit.Test; //automatische verknüpfung der Test cases mit dem test lap 
 
 
