@@ -6,10 +6,10 @@ import org.junit.Test; //automatische verknüpfung der Test cases mit dem test l
 public class PreisCheckTest {
     
     //Preis zwischen 0 und 1 CHF ist sehr billig
-    @Test
+    @Test //wird verwendet um den Testcase direkt mit dem Testlab zu verbinden
     public void PreisCheck_SehrBillig(){
         PreisCheck ac = new PreisCheck();
-        Assert.assertEquals("Sehr billig", ac.CheckP(0.5));
+        Assert.assertEquals("Sehr billig", ac.CheckP(0.5)); //wie oben erwähnt, die Methode assertEquals(expected,actual) überprüft ob die beiden Werte übereinstimmen
     }
 
     //Preis zwischen 1 und 5 CHF is Billig 
