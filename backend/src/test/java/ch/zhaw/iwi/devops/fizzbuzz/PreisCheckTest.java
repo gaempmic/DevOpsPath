@@ -44,12 +44,6 @@ public class PreisCheckTest {
         Assert.assertEquals("Geld zurück", ac.CheckP(-1));
     }
 
-    @Test
-    public void PreisCheck_undefiniert(){
-        PreisCheck ac = new PreisCheck();
-        Assert.assertEquals("Undefiniert", ac.CheckP(1.253));
-    }
-
 }
 
 
